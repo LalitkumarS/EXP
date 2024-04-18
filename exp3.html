@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioData</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            background-color: #001f3f; /* Navy blue */
+        }
+
+        .navbar {
+            display: none; /* Hide the top navigation bar */
+        }
+
+        .container-fluid {
+            padding-top: 70px; /* Adjusted for navbar height */
+        }
+
+        .image {
+            border-radius: 50%;
+            width: 150px;
+            margin: 30px auto;
+            display: block;
+        }
+
+        .links {
+            color: #ffffff; /* White */
+            font-size: 20px;
+            margin-bottom: 20px;
+            display: block;
+            text-align: center;
+        }
+
+        .sidebar {
+            background-color: #001f3f; /* Navy blue */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            background-color: rgb(194, 232, 174);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .head {
+            font-size: 20px;
+        }
+
+        .fsize {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Left Sidebar -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 sidebar">
+                <img class="image" src="lalitp.jpg" alt="photo">
+                <a class="links" href="#ab">About</a>
+                <a class="links" href="#eq">Educational Qualification</a>
+                <a class="links" href="#t">Technical Skills</a>
+                <a class="links" href="#pr">Co-Curricular</a>
+                <a class="links" href="#c">Personal Details</a>
+            </div>
+            <div class="col-lg-9">
+                <!-- Right Content -->
+                <div>
+                    <h1 style="color: #c1cae5;" id="ab">About</h1>
+                    <div class="header">
+                        <h2 class="head" style="color: #011962; font-size: 50px">LALITKUMAR S</h2>
+                        <p class="fsize">Mail-id: lalitkumars.22it@kongu.edu</p>
+                        <p class="fsize">Phone No: 9150435610</p>
+                        <h3 class="head">Objective</h3>
+                        <p class="fsize">Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings.</p>
+                    </div>
+                    
+                    <!-- Educational Qualification -->
+                    <h1 style="color: #c1cae5;" id="eq">Educational Qualification</h1>
+                    <div class="header">
+                        <h2 class="head">Educational Qualification</h2>
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Degree</th>
+                                    <th>Institution</th>
+                                    <th>Year</th>
+                                    <th>Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>B.Tech</td>
+                                    <td>Kongu Engineering College</td>
+                                    <td>2023</td>
+                                    <td>7.79</td>
+                                </tr>
+                                <tr>
+                                    <td>HSC</td>
+                                    <td>Shree Niketan Patasala</td>
+                                    <td>2022</td>
+                                    <td>80.6%</td>
+                                </tr>
+                                <tr>
+                                    <td>SSLC</td>
+                                    <td>Shree Niketan Patasala</td>
+                                    <td>2020</td>
+                                    <td>88.2%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Technical Skills -->
+                    <h1 style="color: #c1cae5;" id="t">Technical Skills</h1>
+                    <div class="header">
+                        <h2 class="head">Area of Interest</h2>
+                        <ul>
+                            <li>Devops</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <h2 class="head">Programming Languages</h2>
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Co-Curricular -->
+                    <h1 style="color: #c1cae5;" id="pr">Co-Curricular</h1>
+                    <div class="header">
+                        <h2 class="head">Industrial Collaboration</h2>
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Name of the Company</th>
+                                    <th>Name of the Topic</th>
+                                    <th>Duration</th>
+                                    <th>Year</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Luisant Software Solutions</td>
+                                    <td>CRM Development</td>
+                                    <td>7 days</td>
+                                    <td>2023</td>
+                                </tr>
+                                <tr>
+                                    <td>Next Gen, Erode</td>
+                                    <td>Android Development</td>
+                                    <td>8 days</td>
+                                    <td>2024</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h2 class="head">Hobbies</h2>
+                        <p class="fsize">Playing chess, Reading books</p>
+                        <h2 class="head">Paper Presentation</h2>
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Institution</th>
+                                    <th>Year</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cognitive Computing</td>
+                                    <td>Kongu Engineering College, Erode</td>
+                                    <td>2023</td>
+                                </tr>
+                                <tr>
+                                    <td>Cognitive Computing</td>
+                                    <td>Kongu Engineering College, Erode</td>
+                                    <td>2023</td>
+                                </tr>
+                                <tr>
+                                    <td>Edge computing in 5G</td>
+                                    <td>Anna University, Chennai</td>
+                                    <td>2024</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h2 class="head">Certification Courses</h2>
+                        <ul>
+                            <li>Code Chef
+                                <ol>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                </ol>
+                            </li>
+                            <li>Great learning java course</li>
+                        </ul>
+                        <h2 class="head">Membership</h2>
+                        <ul>
+                            <li>CSI Club</li>
+                            <li>MADC Club</li>
+                            <li>Sri Ramanujam Maths Club</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Personal Details -->
+                    <h1 style="color: #c1cae5;" id="c">Personal Details</h1>
+                    <div class="header">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>Name</th>
+                                    <td>Lalitkumar S</td>
+                                </tr>
+                                <tr>
+                                    <th>Father Name</th>
+                                    <td>Srinivasan N</td>
+                                </tr>
+                                <tr>
+                                    <th>Mother Name</th>
+                                    <td>Malarkodi S</td>
+                                </tr>
+                                <tr>
+                                    <th>Gender</th>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <th>DOB</th>
+                                    <td>30-Sep-2004</td>
+                                </tr>
+                                <tr>
+                                    <th>Nationality</th>
+                                    <td>Indian</td>
+                                </tr>
+                                <tr>
+                                    <th>Religion</th>
+                                    <td>Hindu</td>
+                                </tr>
+                                <tr>
+                                    <th>Language Known</th>
+                                    <td>English, Tamil, Hindi, Kannada</td>
+                                </tr>
+                                <tr>
+                                    <th>Email</th>
+                                    <td>laliths9003@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <th>Phone No</th>
+                                    <td>9150435610</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
